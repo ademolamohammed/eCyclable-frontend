@@ -1,0 +1,104 @@
+.FormStyle{
+font-size: 1.4rem;
+letter-spacing: 0.02rem;
+line-height: 1.8rem;
+width: 100%;
+}
+
+.Remember{
+    display: flex;
+    align-items: center;
+    margin-top: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    height:2.4rem;
+    width:2.4rem;
+    /* background-color: #a5a5a5; */
+    border:1px solid #a5a5a5;
+    border-radius: 0.4rem;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+input[type="checkbox"]::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content:"\f00c";
+    font-size: 12px;
+    color:white;
+    display: none;
+}
+
+input[type="checkbox"]:hover {
+    background-color:lightgray;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #000000;
+}
+
+input[type="checkbox"]:checked:after {
+    display: block;
+}
+
+.ButtonContent{
+    width:100%;
+/* margin-left: 2rem; */
+}
+
+.SigninButton{
+    letter-spacing: 0.2rem;
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(3, 155, 0, 1);
+    border: none;
+    width: 100%;
+    border-radius: .6rem;
+    height: 4.7rem;
+    margin-bottom: 2.9rem;
+}
+
+.SigninButton:hover{
+   opacity:.8; 
+}
+
+.NewsLetter{
+    padding:0;
+    margin:0;
+    margin-left:10px;
+    width:33.6rem;
+    margin-top:10px;
+  }
+
+
+
+
+  @media screen and (max-width: 500px)  {
+
+    .FormStyle{
+        padding: 0 2rem;
+    }
+
+  }
+    
+
+@media screen and (max-width: 380px)  {
+    .FormContainer{
+        width: 100% !important;
+    }
+
+    .FormStyle{
+        width: auto;
+        padding: 0;
+    }
+
+    }
+    

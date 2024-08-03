@@ -1,0 +1,124 @@
+.wrapper{
+    display: flex;
+    height: 100vh;
+        padding-left: 5rem;
+    padding-right: 5rem;
+    align-items: center;
+}
+
+.first{
+    padding: 0 10rem 0 0;
+
+}
+
+.first,.second{
+    width: 50%;
+}
+
+.cyclables{
+    color: rgba(3, 155, 0, 1);
+font-size: 24px;
+font-weight: 500;
+line-height: 29.05px;
+margin-bottom: 4rem;
+}
+
+.welcome{
+font-size: 32px;
+font-weight: 700;
+line-height: 43.2px;
+letter-spacing: -0.02em;
+color: rgba(0, 0, 0, 1);
+}
+
+.logins{
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: -0.02em;
+color: rgba(172, 172, 172, 1);
+}
+
+blur{
+    width: 100%;
+}
+
+.tabs{
+    background: rgba(243, 243, 244, 1);
+padding: 6.98px 8px 6.98px 8px;
+border-radius: 11.16px;
+width: 30rem;
+margin: auto;
+display: flex;
+margin-bottom: 3rem;
+}
+
+.tabs2{
+    padding: 6.98px 8px 6.98px 8px;
+    border-radius: 11.16px;
+    width: 30rem;
+    margin: auto;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.signin,.signup{
+    width: 50%;
+    padding: inherit;
+font-size: 19.53px;
+font-weight: 500;
+line-height: 29.3px;
+cursor:pointer;
+}
+
+.scroll{
+    height: 40rem;
+    overflow-y: scroll;
+  }
+
+  .ButtonContent{
+    width:100%;
+margin-left: 2rem;
+}
+
+.SigninButton{
+    letter-spacing: 0.2rem;
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(3, 155, 0, 1);
+    border: none;
+    width: 100%;
+    border-radius: .6rem;
+    height: 4.7rem;
+    margin-bottom: 2.9rem;
+}
+
+.SigninButton:hover{
+   opacity:.8; 
+}
+
+.bookings{
+    height: 600px;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 800px) {
+          
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 10rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .first,.second{
+        width: 100%;
+    }
+
+    .first{
+        margin-left: 15rem;
+    }
+        
+}

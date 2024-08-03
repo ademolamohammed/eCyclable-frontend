@@ -1,0 +1,128 @@
+.Wrapper{
+    padding:1.6rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ border-bottom: 1px solid rgba(225, 234, 251, 1);
+}
+
+.Wrapper h2{
+    color: var(--dark-blue, rgba(0, 12, 56, 1));
+    font-size:3.6rem;
+    line-height: 4.7rem;
+    font-weight: 700;
+    align-self: flex-start;
+    margin: 0;
+    align-self: center;
+}
+
+.Header_Nav ul{
+    display: flex;
+    gap:6.4rem;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    color: var(--dark-blue, rgba(0, 12, 56, 1));
+    /* align-items: center; */
+    list-style-type: none;
+}
+
+.Header_Contact p{
+    background-color: rgba(3, 155, 0, 1);
+    border: 1px solid rgba(3, 155, 0, 1);
+    border-radius: 3rem;
+    padding:1.6rem 3.8rem;
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 3.2rem;
+    margin: 0;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+ul li:hover{
+    color:rgba(3, 155, 0, 1);
+
+}
+
+nav{
+    display: none !important;
+}
+
+
+@media screen and (max-width: 1145px) {
+
+    .Wrapper{
+        padding:1.6rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     border-bottom: 1px solid rgba(225, 234, 251, 1);
+    }
+  
+  }
+
+
+
+@media screen and (max-width: 995px) {
+
+    .Wrapper{
+        padding:1.6rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     border-bottom: 1px solid rgba(225, 234, 251, 1);
+    }
+
+    .Header_Nav ul{
+        font-size: 1.6rem;
+    }
+
+    .Wrapper h2{
+        color: var(--dark-blue, rgba(0, 12, 56, 1));
+        font-size:2rem;
+    }
+
+    .Header_Contact p{
+        font-size: 1.8rem;
+    }
+  
+  }
+
+  @media screen and (max-width: 811px) {
+    .Header_Nav ul{
+        display: none;
+    }
+
+    .Header_Contact p{
+        display: none;
+    }
+    
+    nav{
+        display: block !important;
+        margin-left: 50rem;
+    }
+    
+
+  
+  }
+
+  @media screen and (max-width: 728px) {
+    .Header_Nav ul{
+        display: none;
+    }
+
+    .Header_Contact p{
+        display: none;
+    }
+    
+    nav{
+        display: block !important;
+        margin-left: 30rem;
+    }
+    
+
+  
+  }

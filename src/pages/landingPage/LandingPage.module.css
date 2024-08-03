@@ -1,0 +1,292 @@
+.Banner {
+    background-image: url("../../assets/images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 600px;
+    width: 100%; */
+    background-position:center;
+    padding: 5.9rem 20.6rem;
+  }
+
+  .Banner_Header{
+    font-size: 6.4rem;
+    line-height: 9.6rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .Banner_Text{
+    font-size: 2.8rem;
+    line-height: 4.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 6.4rem;
+  }
+
+  .wrapper_Button{
+    display: flex;
+    gap: 1.6rem;
+    margin-bottom: 15.5rem;
+    justify-content: center;
+  }
+
+  .wrapper_Button_join{
+padding: 16px 52px 16px 52px;
+border-radius: 3rem;
+opacity: 0px;
+background-color: rgba(3, 155, 0, 1);
+color: rgba(255, 255, 255, 1);
+outline: none;
+border: none;
+font-size: 2.4rem;
+font-weight: 500;
+  }
+
+  .wrapper_Button_see{
+padding: 16px 52px 16px 52px;
+border-radius: 3rem;
+border:1px solid rgba(255, 255, 255, 1);
+opacity: 0px;
+color:  rgba(255, 255, 255, 1);
+background-color: transparent;
+font-size: 2.4rem;
+font-weight: 500;
+outline: none;
+  }
+
+
+  .MainContent{
+    margin-top: 7.2rem;
+    padding:0 21.3rem;
+
+  }
+
+  .MainContent_div{
+    display:flex;
+    gap: 8rem;
+  }
+
+  .MainContent_div img {
+    align-self: start;
+    width: 40%;
+  }
+
+  .MainContent_section{
+    width:60%;
+  }
+
+  .MainContent_section h3{
+    color: rgba(29, 29, 29, 1);
+    font-size: 4.8rem;
+    font-weight:800;
+    line-height: 7.2rem;
+    margin-bottom: 3.6rem;
+    margin: 0;
+  }
+
+  .MainContent_section p {
+    color: rgba(170, 170, 170, 1);
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-weight: 400;
+  }
+
+  .MainContent_center{
+    /* padding: 0 43rem; */
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+  }
+
+  .MainContent_center_div{
+    width: 433px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .MainContent_center_button{
+    border: 2px solid rgba(3, 155, 0, 1);
+
+padding: 16px 22px 16px 22px;
+border-radius: 30px;
+opacity: 0px;
+font-size: 2.4rem;
+font-weight: 500;
+color: rgba(3, 155, 0, 1);
+background-color: transparent;
+
+  }
+
+  .Standout{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 6rem;
+  color: rgba(29, 29, 29, 1);
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+  }
+
+  .MainContent_center_box{
+    padding: 0 6rem;
+  }
+
+  .MainContent_center_box_content,.MainContent_center_box_content_2{
+    display: flex;
+    gap: 4.6rem;
+  }
+
+  .MainContent_center_box_content_2 {
+margin-top: 4.6rem;
+  }
+
+
+  .MainContent_card{
+    padding: 3rem 2.2rem;
+
+padding: 32px 22px 32px 22px;
+border-radius: 8px;
+border: 1px solid rgba(170, 170, 170, 1);
+opacity: 0px;
+
+  }
+
+  .MainContent_card img {
+    margin-bottom: 2.4rem;
+  }
+
+  .MainContent_card_heading{
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 4.2rem;
+    margin-bottom: 2.4rem;
+    color: rgba(29, 29, 29, 1);
+    /* margin: 0; */
+  }
+
+  .MainContent_card_text{
+    color: rgba(170, 170, 170, 1);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+  }
+
+
+  .Reclaim{
+    margin: auto;
+gap: 0px;
+border-radius: 30px;
+padding: 3.6rem 10rem;
+text-align: center;
+background-color: rgba(3, 155, 0, 1);
+
+  }
+
+  .Reclaim_heading{
+font-size: 4rem;
+font-weight: 900;
+line-height: 6rem;
+color: rgba(255, 255, 255, 1);
+margin: 0;
+margin-bottom:4.4rem;
+  }
+
+
+  .Reclaim_text{
+font-size: 2.4rem;
+font-weight: 400;
+line-height: 36px;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 6rem;
+  }
+
+  .Reclaim_div{
+    padding:0 20rem;
+    margin-bottom: 20rem;
+    opacity: .8;
+  }
+
+.Reclaim button {
+padding: 16px 52px 16px 52px;
+border-radius: 30px;
+border: 1px solid rgba(255, 255, 255, 1);
+font-size: 2.4rem;
+font-weight: 500;
+line-height: 3.1rem;
+}
+
+@media screen and (max-width: 1150px) {
+    
+
+      .MainContent{
+        margin-top: 7.2rem;
+        padding:0 10.3rem;
+    
+      }
+  
+  }
+
+
+@media screen and (max-width: 950px) {
+    
+    .Banner {
+        padding: 5.9rem 5.6rem;
+      }
+
+      .MainContent{
+        margin-top: 7.2rem;
+        padding:0 21.3rem;
+    
+      }
+
+      .MainContent{
+        margin-top: 7.2rem;
+        padding:0 5.3rem;
+    
+      }
+
+      .MainContent_center_box{
+        padding: 0 1rem;
+      }
+  
+  }
+
+
+  @media screen and (max-width: 662px) {
+    
+    .wrapper_Button_join{
+        font-size: 2rem;
+          }
+        
+          .wrapper_Button_see{
+        font-size: 2rem;
+          }
+
+        
+  .MainContent_div{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .MainContent_div img {
+    align-self: start;
+    width: 100%;
+  }
+
+  .MainContent_section{
+    width:100%;
+  }
+
+  .MainContent_center_box_content,.MainContent_center_box_content_2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Reclaim_div{
+    padding:0 2rem;
+    margin-bottom: 20rem;
+    opacity: .8;
+  }
+        
+  
+  }

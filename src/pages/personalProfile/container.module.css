@@ -1,0 +1,45 @@
+.Menu_row{
+    /* padding-left: 6.4rem;
+    padding-right: 6.4rem; */
+    padding: 0rem 7.3rem 2rem 7.3rem;
+    display: flex;
+    line-height: 1.8rem;
+    letter-spacing: 0.02rem;
+    margin-top: 7.6rem;
+   }
+
+@media screen and (min-width: 1500px)  {
+
+.Menu_row {
+  width: 1450px;
+  margin: auto;
+  margin-top: 3rem;
+}
+  
+
+}
+
+@media screen and (max-width: 1256px)  {
+    .Menu_row{
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.8rem;
+        letter-spacing: 0.02rem;
+        margin-top: 5rem;
+       }  
+}
+
+@media screen and (max-width: 850px) {
+  .Menu_row{
+      padding: 0 2.3rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .Menu_row{
+      padding: 0;
+  }
+}
+  
